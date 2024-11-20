@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Conversion Calculator</title>
+    <link rel="stylesheet" href="h.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Number Conversion Calculator</h1>
+        <div class="input-group">
+            <label for="number"><center>Enter Number:</center></label>
+            <input type="text" id="number" placeholder="Enter a number" />
+        </div>
+        <label for="from-base"><center>From Base:</center></label>
+            <select id="from-base">
+                <option value="10">Decimal</option>
+                <option value="2">Binary</option>
+                <option value="16">Hexadecimal</option>
+                <option value="8">Octal</option>
+            </select>
+        <label for="to-base"><center>To Base:</center></label>
+            <select id="to-base">
+                <option value="10">Decimal</option>
+                <option value="2">Binary</option>
+                <option value="16">Hexadecimal</option>
+                <option value="8">Octal</option>
+            </select>
+        
+        <button id="convert-btn">Convert</button>
+        <div class="output-group">
+            <h2>Result:</h2>
+            <p id="result">--</p>
+        </div>
+    </div>
+    <script src="h.js"></script>
+</body>
+</html>
