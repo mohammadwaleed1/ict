@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Cloud - Our Menu</title>
+    <style>
+        body {
+            background-color: lightgoldenrodyellow;
+            font-family: Arial;
+        }
+        h1 {
+            color: darkred;
+            text-align: center;
+            font-family:Arial;
+    
+        }
+        h2 {
+            color: darkblue;
+            margin-top: 20px;
+        }
+        ul{
+            list-style:disc;
+            margin: 0 20px;
+        }
+        .food-image {
+            float: right;
+            margin-left: 20px;
+            max-width: 400px;
+            border: 2px solid,blue;
+        }
+        hr {
+            border: 1px solid #000;
+            margin: 10px 0;
+        }
+        .back-link {
+            display:block;
+            text-align: center;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .menu-section {
+            overflow: auto; /* Ensures content wraps nicely around the floated image */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Explore Our Delicious Menu</h1>
+    <p><center>We only use the<i style="color: green; font-weight: bold;"> freshest</i> ingredients to bring you the best experience!</center></p>
+    <hr>
+    <div class="menu-section">
+        <img src="https://img.freepik.com/free-vector/japanese-restaurant-menu-template_23-2148972207.jpg"class="food-image">
+        <h2>Appetizers</h2> 
+        <ul>
+            <li>Garlic Bread</li>
+            <li>Bruschetta</li>
+            <li>Stuffed Mushrooms</li>
+        </ul>
+        <h2>Main Course</h2>
+        <ul>
+            <li>Grilled Salmon</li>
+            <li>Roasted Chicken</li>
+            <li>Vegetarian Lasagna</li>
+        </ul>
+        <h2>Desserts</h2>
+        <ul>
+            <li>Cheesecake</li>
+            <li>Tiramisu</li>
+            <li>Chocolate Mousse</li>
+        </ul>
+    </div>
+    <a href="index.html" class="back-link">Back to Home</a>
+</body>
+</html>
